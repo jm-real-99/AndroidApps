@@ -1,6 +1,6 @@
 # AndroidApps (ES)
   
-Proyectos realizados en el IDE de Android Studio para la asignatura optativa de *Laboratorios de dispositivos móviles* de la universidad **Rey Juan Carlos I**.
+Proyectos realizados en el IDE de Android Studio para la asignatura optativa de *Laboratorios de dispositivos móviles*.
 
 ## Android Quiz with BD 
 Se trata de un quiz con 3 tipos de respuestas distintas. Además hemos implementado una base de datos para guardar los usuarios y sus puntuaciones. 
@@ -14,7 +14,7 @@ Lo mismo que el juevo anterior, pero explorando la implementación de nuevas mec
 <hr>
 
 # AndroidApps (EN) 
-Projects realized in the Android Studio IDE for the subject of "Laboratory of mobile devices" at the university **Rey Juan Carlos I** .
+Projects realized in the Android Studio IDE for the subject of "Laboratory of mobile devices" .
 
 ## Android Quiz with BD
 It's a quiz with 3 types of responses. We also implements a Database to save users and their scores.
