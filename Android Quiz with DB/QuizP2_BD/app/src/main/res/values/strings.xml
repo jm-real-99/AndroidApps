@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">ANDROID GAME TRIVIAL</string>
+    <string name="Boton_Inicio">JUGAR</string>
+    <string name="Boton_Siguiente">CONFIRMAR</string>
+    <string name="Boton_Finalizar">FINALIZAR</string>
+    <string name="Boton_Volver">REINICIAR</string>
+    <string name="BotonAyuda_Volver">MENÚ</string>
+    <string name="Boton_registro">COMPLETAR REGISTRO</string>
+    <string name="Boton_IrARegistro">REGISTRARSE</string>
+    <string name="BotonAyuda_Siguiente">SIGUIENTE</string>
+    <string name="Titulo_Ranking">RANKING</string>
+    <string name="BotonSalir">SALIR</string>
+    <string name="primero">1.-</string>
+    <string name="segundo">2.-</string>
+    <string name="tercero">3.-</string>
+    <string name="CabPos">Posición</string>
+    <string name="CabUsu">Usuario</string>
+    <string name="CabPunt">Puntuación</string>
+    <string name="CabTu">Tu posición en el ranking</string>
+    <string name="vacio"></string>
+    <string name="CabRes">Tu puntuación:</string>
+
+
+    <array name="Preguntas">
+        <item>¿Cuál es el juego más vendido de la Play Store?</item>
+        <item>¿Cuál de los siguientes juegos pertenece a la famosa empresa SuperCell?</item>
+        <item>¿Cuál de los siguientes juegos pertenece al género EndLess Runner?</item>
+        <item>¿Qué juego corresponde la siguiente imágen?</item>
+        <item>¿Cuál es el logo correcto de Angry Birds?</item>
+        <item>¿Cuáles de los siguientes juegos son Premium?</item>
+    </array>
+
+    <array name="Respuesta1">
+        <item>Geometry Dash</item>
+        <item>Clash Royale</item>
+        <item>Minecraft</item>
+        <item>Candy Crush</item>
+    </array>
+
+    <array name="Respuesta2">
+        <item>Coin Masters</item>
+        <item>Clash of Clans</item>
+        <item>Preguntados</item>
+        <item>Candy Crush</item>
+    </array>
+
+    <array name="Respuesta3">
+        <item>Subway Surfers</item>
+        <item>My Talking Tom</item>
+        <item>Pou</item>
+        <item>Fruit Ninja</item>
+    </array>
+
+    <array name="Respuesta4">
+        <item>Tetris</item>
+        <item>Candy Crush</item>
+        <item>Home Scapes</item>
+        <item>Plants vs Zombies</item>
+    </array>
+
+    <array name="Respuesta5">
+        <item>Logo bueno</item>
+        <item>Captura pelicula</item>
+        <item>Pajaro amarillo</item>
+        <item>Logo bueno pero pajaro otro color</item>
+    </array>
+
+    <array name="Respuesta6">
+        <item>Geometry Dash</item>
+        <item>Home Scapes</item>
+        <item>Roblox</item>
+        <item>Game Dev Tycoon</item>
+    </array>
+
+    <array name="MensajesP1">
+        <item>¡¡ERROR!!
+            Geometry Dash es la segunda app más comprada
+        </item>
+        <item>¡¡ERROR!!
+            No puede ser la más vendida porque es gratis
+        </item>
+        <item>¡¡Muy bien!!
+            Respuesta correcta
+        </item>
+        <item>¡¡ERROR!!
+            No puede ser la más vendida porque es gratis
+        </item>
+    </array>
+
+    <array name="MensajesP2">
+        <item>¡¡ERROR!!
+            La empresa es Moon Active
+        </item>
+        <item>¡¡Muy bien!!
+            Respuesta correcta
+        </item>
+        <item>¡¡ERROR!!
+            La empresa es King
+        </item>
+        <item>¡¡ERROR!!
+            La empresa es Etermax
+        </item>
+    </array>
+
+    <array name="MensajesP3">
+        <item>¡¡Muy bien!!
+            Respuesta correcta
+        </item>
+        <item>¡¡ERROR!!
+            Es del tipo Simulación-Cuidados
+        </item>
+        <item>¡¡ERROR!!
+            Es del tipo Simulación-Cuidados
+        </item>
+        <item>¡¡ERROR!!
+            Es del tipo Arcade
+        </item>
+    </array>
+
+    <array name="MensajesP4">
+        <item>¡¡ERROR!!
+            ¿Alguna vez has visto el tetris?
+        </item>
+        <item>¡¡Muy bien!!
+            Respuesta correcta
+        </item>
+        <item>¡¡ERROR!!
+            Se parece pero no es
+        </item>
+        <item>¡¡ERROR!!
+            No veo Plantas ni Zombies
+        </item>
+    </array>
+
+    <array name="MensajesP5">
+        <item>¡¡Muy bien!!
+            Respuesta correcta
+        </item>
+        <item>¡¡ERROR!!
+            La imagen no corresponde al pájaro principal
+        </item>
+        <item>¡¡ERROR!!
+            La imagen corresponde a la película
+        </item>
+        <item>¡¡ERROR!!
+            La imagen no corresponde al pájaro principal
+        </item>
+    </array>
+
+</resources>

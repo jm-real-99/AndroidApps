@@ -1,0 +1,23 @@
+Añadido por clases:
+
+
+    -JollyRoger:
+        ·Método envenenado.
+
+    -Assets: Todas las nuevas imágenes y el sonido de veneno. Además de actualizar los anteriores.
+
+    -LoadingScreen: Lo añadido en Assets
+
+    -Botín: Añadido dos nuevos tipos.
+
+    -PantallaJuego:
+        ·Actualizado el método drawWorld, para añadir los assets de las galletas envenenadas y de los muros.
+
+    -Mundo:
+        ·Añadidas las nuevas variables
+        ·Modificado el método colocarBotín para que cree galletas envenadas y muros
+        ·Método ColocarMuros, que se encarga de colocar los muros de manera aleatoria.
+        ·Modificado el método update para comprobar si se ha chocado con un muro o comido una galleta envenenada.
+        ·Añadidos métodos auxiliares para comprobaciones o eliminar elementos.
+
+

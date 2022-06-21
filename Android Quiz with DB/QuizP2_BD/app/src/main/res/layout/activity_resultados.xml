@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4c68f"
+    tools:context=".Resultados">
+
+    <TextView
+        android:id="@+id/Puntuacion"
+        android:layout_width="150dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/archivo_black"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="74sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextoPuntuacion" />
+
+    <TextView
+        android:id="@+id/TextoPuntuacion"
+        android:layout_width="295dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="@string/CabRes"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/IrMenu"
+        android:layout_width="129dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="124dp"
+        android:background="#F6A6C1"
+        android:fontFamily="@font/archivo_black"
+        android:onClick="volverMenu"
+        android:text="@string/BotonAyuda_Volver"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/irMenu3"
+        android:layout_width="129dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="124dp"
+        android:background="#F6A6C1"
+        android:fontFamily="@font/archivo_black"
+        android:onClick="cerrar"
+        android:text="@string/BotonSalir"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.361"
+        app:layout_constraintStart_toEndOf="@+id/IrMenu" />
+
+    <TextView
+        android:id="@+id/MensajePuntuacion"
+        android:layout_width="256dp"
+        android:layout_height="90dp"
+        android:fontFamily="@font/archivo_black"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Puntuacion" />
+
+    <TextView
+        android:id="@+id/Estadisticas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        app:layout_constraintBottom_toTopOf="@+id/IrMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MensajePuntuacion"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/CorreoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/iconoRanking"
+        android:layout_width="89dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="16dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/vacio"
+        android:onClick="irRanking"
+        app:layout_constraintBottom_toTopOf="@+id/TextoPuntuacion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/coparanking"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

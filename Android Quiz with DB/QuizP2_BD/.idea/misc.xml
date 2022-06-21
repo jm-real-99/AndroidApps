@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP1/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP1/app/src/main/res/layout/activity_quiz.xml" value="0.33" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP1/app/src/main/res/layout/activity_resultados.xml" value="0.2578125" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BD/app/src/main/res/layout/activity_como_jugar.xml" value="0.30416666666666664" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BD/app/src/main/res/layout/activity_main.xml" value="0.22864583333333333" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BD/app/src/main/res/layout/activity_quiz.xml" value="0.30416666666666664" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BD/app/src/main/res/layout/activity_ranking.xml" value="0.33" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BD/app/src/main/res/layout/activity_registrarse.xml" value="0.2578125" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BD/app/src/main/res/layout/activity_registro.xml" value="0.25364583333333335" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BD/app/src/main/res/layout/activity_resultados.xml" value="0.36666666666666664" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BDSinregistro/app/src/main/res/layout/activity_como_jugar.xml" value="0.3645833333333333" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BDSinregistro/app/src/main/res/layout/activity_main.xml" value="0.3645833333333333" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BDSinregistro/app/src/main/res/layout/activity_quiz.xml" value="0.3645833333333333" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BDSinregistro/app/src/main/res/layout/activity_ranking.xml" value="0.33" />
+        <entry key="..\:/escritorio/JUANMA/UNI/1er semestre/Lab/QuizP2_BDSinregistro/app/src/main/res/layout/activity_resultados.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/activity_como_jugar.xml" value="0.13451086956521738" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16847826086956522" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_registrarse.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_registro.xml" value="0.15070921985815602" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0ffff8"
+    android:backgroundTint="#58C5D3"
+    tools:context=".ComoJugar">
+
+    <Button
+        android:id="@+id/botonVolver"
+        android:layout_width="142dp"
+        android:layout_height="70dp"
+        android:background="#A80FB2F3"
+        android:fontFamily="@font/archivo_black"
+        android:onClick="volverMenu"
+        android:text="@string/BotonAyuda_Volver"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botonSiguiente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenEjemplo" />
+
+    <Button
+        android:id="@+id/botonSiguiente"
+        android:layout_width="142dp"
+        android:layout_height="70dp"
+        android:background="#9C1533F4"
+        android:fontFamily="@font/archivo_black"
+        android:onClick="pasarimagen"
+        android:text="@string/BotonAyuda_Siguiente"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenEjemplo" />
+
+    <ImageView
+        android:id="@+id/imagenEjemplo"
+        android:layout_width="415dp"
+        android:layout_height="605dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cj_rg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

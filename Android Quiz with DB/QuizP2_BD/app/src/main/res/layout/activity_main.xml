@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0ffff8"
+    android:backgroundTint="#58d3be"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/iconoRanking2"
+        android:layout_width="89dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="16dp"
+        android:background="#00FFFFFF"
+        android:onClick="irRanking"
+        app:layout_constraintBottom_toTopOf="@+id/TituloMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/coparanking" />
+
+    <ImageView
+        android:id="@+id/TituloMenu"
+        android:layout_width="310dp"
+        android:layout_height="218dp"
+        android:layout_marginTop="112dp"
+        android:contentDescription="TituloMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/texto_inicio" />
+
+    <Button
+        android:id="@+id/BotonInicio"
+        android:layout_width="169dp"
+        android:layout_height="79dp"
+        android:background="#122c78"
+        android:fontFamily="@font/archivo_black"
+        android:onClick="comenzarJuego"
+        android:text="@string/Boton_Inicio"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#f4c68f"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TituloMenu"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <EditText
+        android:id="@+id/txt_inicioSesionName"
+        android:layout_width="219dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Nombre de Usuario"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4FFFFFFF"
+        android:onClick="comojugar"
+        app:layout_constraintBottom_toTopOf="@+id/TituloMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41"
+        app:srcCompat="@drawable/btnayuda" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
